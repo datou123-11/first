@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../layui/layui.all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="../layui/css/layui.css">
+    <script src="../js/style.js"></script>
+    <script src="../layui/layui.js"></script>
+    <link rel="stylesheet" href="../layui/css/layui.mobile.css">
+</head>
+<body>
+<div class="fd-banner">
+    <div class="fd-head-logo"></div>
+    <div class="fd-head-text">
+        后勤管理平台
+    </div>
+    <button class="fd-sign">
+        登陆
+    </button>
+</div>
+
+<div class="fd-banner-2"></div>
+<div class="fd-main-body">
+    <div class="fd-menu-left">
+        <div class="fd-menu-main-nav">
+            <div class="js-fd-menu-nav">
+                <img src="../images/nav-checked.jpg" alt="">
+                <div class="js-fd-menu-nav-text">设备报修</div>
+
+            </div>
+            <div class="js-fd-menu-nav-list">
+                <div class="js-fd-menu-nav-list-1">
+                    <div class="fd-menu-nav-img"></div>
+                    <div class="fd-menu-nav-text1">在线报修</div>
+                </div>
+                <div class="js-fd-menu-nav-list-2">
+                    <div class="fd-menu-nav-img"></div>
+                    <div class="fd-menu-nav-text1">报修进度</div>
+                </div>
+                <div class="js-fd-menu-nav-list-3">
+                    <div class="fd-menu-nav-img"></div>
+                    <div class="fd-menu-nav-text1">报修记录</div>
+                </div>
+                <div class="js-fd-menu-nav-list-4">
+                    <div class="fd-menu-nav-img"></div>
+                    <div class="fd-menu-nav-text1">报修反馈</div>
+                </div>
+            </div>
+            <div class="js-fd-menu-nav-1">
+                <img src="../images/nav-check.jpg" alt="">
+                <div class="fd-menu-nav-text2">失物招领</div>
+
+            </div>
+        </div>
+    </div>
+    <div class="fd-menu-right-1">
+
+    </div>
+    <div class="fd-menu-right-3">
+
+
+        <div class="fd-menu-right-main-list">
+            <table>
+                <tr class="fd-menu-right-nav" >
+                    <td class="fd-menu-right-nav01 .fd-menu-right-name">序号</td>
+                    <td class="fd-menu-right-nav02 .fd-menu-right-name" style="color: #4b4b4b">案号</td>
+                    <td class="fd-menu-right-nav03 .fd-menu-right-name" style="color: #4b4b4b">报修人</td>
+                    <td class="fd-menu-right-nav04 .fd-menu-right-name" style="color: #4b4b4b">地点</td>
+                    <td class="fd-menu-right-nav05 .fd-menu-right-name" style="color: #4b4b4b">报修类型</td>
+                    <td class="fd-menu-right-nav06 .fd-menu-right-name" style="color: #4b4b4b">报修日期</td>
+                    <td class="fd-menu-right-nav07 .fd-menu-right-name" style="color: #4b4b4b">审核人</td>
+                    <td class="fd-menu-right-nav08 .fd-menu-right-name" style="color: #4b4b4b">操作列</td>
+                </tr>
+                <tr class="fd-menu-right-nav1" >
+                    <td class="fd-menu-right-nav01">1</td>
+                    <td class="fd-menu-right-nav02"><span>3218183441</span>号</td>
+                    <td class="fd-menu-right-nav03">杨东</td>
+                    <td class="fd-menu-right-nav04">浙江佳源</td>
+                    <td class="fd-menu-right-nav05">破产重整</td>
+                    <td class="fd-menu-right-nav06">2016-3-12</td>
+                    <td class="fd-menu-right-nav07">李彤、李艾<br>（负责人）</td>
+                    <td class="fd-menu-right-nav08"><a href="#" class="js-fd-bianji">编辑</a><a href="#">详情</a><a href="#">分案</a></td>
+                </tr>
+                <tr class="fd-menu-right-nav1" >
+                    <td class="fd-menu-right-nav01">2</td>
+                    <td class="fd-menu-right-nav02"><span>3218183441</span>号</td>
+                    <td class="fd-menu-right-nav03">张陈</td>
+                    <td class="fd-menu-right-nav04">云南俊发</td>
+                    <td class="fd-menu-right-nav05">财产管理和变价</td>
+                    <td class="fd-menu-right-nav06">2016-3-11</td>
+                    <td class="fd-menu-right-nav07">李彤、李艾<br>（负责人）</td>
+                    <td class="fd-menu-right-nav08"><a href="#" class="js-fd-bianji">编辑</a><a href="#">详情</a><a href="#">分案</a></td>
+                </tr>
+                <tr class="fd-menu-right-nav1" >
+                    <td class="fd-menu-right-nav01">3</td>
+                    <td class="fd-menu-right-nav02"><span>3218183441</span>号</td>
+                    <td class="fd-menu-right-nav03">李阳阳</td>
+                    <td class="fd-menu-right-nav04">广西东方航洋</td>
+                    <td class="fd-menu-right-nav05">债权申报审核</td>
+                    <td class="fd-menu-right-nav06">2016-3-11</td>
+                    <td class="fd-menu-right-nav07">李彤、李艾<br>（负责人）</td>
+                    <td class="fd-menu-right-nav08"><a href="#" class="js-fd-bianji">编辑</a><a href="#">详情</a><a href="#">分案</a></td>
+                </tr>
+                <tr class="fd-menu-right-nav1" >
+                    <td class="fd-menu-right-nav01">4</td>
+                    <td class="fd-menu-right-nav02"><span>3218183441</span>号</td>
+                    <td class="fd-menu-right-nav03">张二东</td>
+                    <td class="fd-menu-right-nav04">天津塘沽贻成实业</td>
+                    <td class="fd-menu-right-nav05">第一次债权会议</td>
+                    <td class="fd-menu-right-nav06">2016-3-11</td>
+                    <td class="fd-menu-right-nav07">李彤、李艾<br>（负责人）</td>
+                    <td class="fd-menu-right-nav08"><a href="#" class="js-fd-bianji">编辑</a><a href="#">详情</a><a href="#">分案</a></td>
+                </tr>
+                <tr class="fd-menu-right-nav1" >
+                    <td class="fd-menu-right-nav01">5</td>
+                    <td class="fd-menu-right-nav02"><span>3218183441</span>号</td>
+                    <td class="fd-menu-right-nav03">张浩然</td>
+                    <td class="fd-menu-right-nav04">海量地产</td>
+                    <td class="fd-menu-right-nav05">接管债务人</td>
+                    <td class="fd-menu-right-nav06">2016-3-10</td>
+                    <td class="fd-menu-right-nav07">李彤、李艾<br>（负责人）</td>
+                    <td class="fd-menu-right-nav08"><a href="#" class="js-fd-bianji">编辑</a><a href="#">详情</a><a href="#">分案</a></td>
+                </tr>
+                <tr class="fd-menu-right-nav1" >
+                    <td class="fd-menu-right-nav01">6</td>
+                    <td class="fd-menu-right-nav02"><span>3218183441</span>号</td>
+                    <td class="fd-menu-right-nav03">李阳阳</td>
+                    <td class="fd-menu-right-nav04">重庆光华控股</td>
+                    <td class="fd-menu-right-nav05">接管债务人</td>
+                    <td class="fd-menu-right-nav06">2016-3-10</td>
+                    <td class="fd-menu-right-nav07">李彤、李艾<br>（负责人）</td>
+                    <td class="fd-menu-right-nav08"><a href="#" class="js-fd-bianji">编辑</a><a href="#">详情</a><a href="#">分案</a></td>
+                </tr>
+                <tr class="fd-menu-right-nav1" >
+                    <td class="fd-menu-right-nav01">7</td>
+                    <td class="fd-menu-right-nav02"><span>3218183441</span>号</td>
+                    <td class="fd-menu-right-nav03">张二东</td>
+                    <td class="fd-menu-right-nav04">上海三湘股份</td>
+                    <td class="fd-menu-right-nav05">接管债务人</td>
+                    <td class="fd-menu-right-nav06">2016-3-10</td>
+                    <td class="fd-menu-right-nav07">李彤、李艾<br>（负责人）</td>
+                    <td class="fd-menu-right-nav08"><a href="#" class="js-fd-bianji">编辑</a><a href="#">详情</a><a href="#">分案</a></td>
+                </tr>
+                <tr class="fd-menu-right-nav1" >
+                    <td class="fd-menu-right-nav01">8</td>
+                    <td class="fd-menu-right-nav02"><span>3218183441</span>号</td>
+                    <td class="fd-menu-right-nav03">张浩然</td>
+                    <td class="fd-menu-right-nav04">广州市海伦堡</td>
+                    <td class="fd-menu-right-nav05">财务管理和变价</td>
+                    <td class="fd-menu-right-nav06">2016-3-10</td>
+                    <td class="fd-menu-right-nav07">李彤、李艾<br>（负责人）</td>
+                    <td class="fd-menu-right-nav08"><a href="#" class="js-fd-bianji">编辑</a><a href="#">详情</a><a href="#">分案</a></td>
+                </tr>
+                <tr class="fd-menu-right-nav1" >
+                    <td class="fd-menu-right-nav01">9</td>
+                    <td class="fd-menu-right-nav02"><span>3218183441</span>号</td>
+                    <td class="fd-menu-right-nav03">张浩然</td>
+                    <td class="fd-menu-right-nav04">青岛伟东置业</td>
+                    <td class="fd-menu-right-nav05">财务管理和变价</td>
+                    <td class="fd-menu-right-nav06">2016-3-9</td>
+                    <td class="fd-menu-right-nav07">李彤、李艾<br>（负责人）</td>
+                    <td class="fd-menu-right-nav08"><a href="#" class="js-fd-bianji">编辑</a><a href="#">详情</a><a href="#">分案</a></td>
+                </tr>
+                <tr class="fd-menu-right-nav1" >
+                    <td class="fd-menu-right-nav01">10</td>
+                    <td class="fd-menu-right-nav02"><span>3218183441</span>号</td>
+                    <td class="fd-menu-right-nav03">张浩然</td>
+                    <td class="fd-menu-right-nav04">奥辰地产</td>
+                    <td class="fd-menu-right-nav05">财产管理和变价</td>
+                    <td class="fd-menu-right-nav06">2016-3-9</td>
+                    <td class="fd-menu-right-nav07">李彤、李艾<br>（负责人）</td>
+                    <td class="fd-menu-right-nav08"><a href="#" class="js-fd-bianji">编辑</a><a href="#">详情</a><a href="#">分案</a></td>
+                </tr>
+                <tr class="fd-menu-right-nav1" >
+                    <td class="fd-menu-right-nav01">11</td>
+                    <td class="fd-menu-right-nav02"><span>3218183441</span>号</td>
+                    <td class="fd-menu-right-nav03">李一然</td>
+                    <td class="fd-menu-right-nav04">联发集团</td>
+                    <td class="fd-menu-right-nav05">债权申报审核</td>
+                    <td class="fd-menu-right-nav06">2016-3-9</td>
+                    <td class="fd-menu-right-nav07">李彤、李艾<br>（负责人）</td>
+                    <td class="fd-menu-right-nav08"><a href="#" class="js-fd-bianji">编辑</a><a href="#">详情</a><a href="#">分案</a></td>
+                </tr>
+                <tr class="fd-menu-right-nav1" >
+                    <td class="fd-menu-right-nav01">12</td>
+                    <td class="fd-menu-right-nav02"><span>3218183441</span>号</td>
+                    <td class="fd-menu-right-nav03">李一然</td>
+                    <td class="fd-menu-right-nav04">天津津滨发展</td>
+                    <td class="fd-menu-right-nav05">第一次债权会议</td>
+                    <td class="fd-menu-right-nav06">2016-3-9</td>
+                    <td class="fd-menu-right-nav07">李彤、李艾<br>（负责人）</td>
+                    <td class="fd-menu-right-nav08"><a href="#" class="js-fd-bianji">编辑</a><a href="#">详情</a><a href="#">分案</a></td>
+                </tr>
+                <tr class="fd-menu-right-nav1" >
+                    <td class="fd-menu-right-nav01">13</td>
+                    <td class="fd-menu-right-nav02"><span>3218183441</span>号</td>
+                    <td class="fd-menu-right-nav03">张天然</td>
+                    <td class="fd-menu-right-nav04">杭州都房地产</td>
+                    <td class="fd-menu-right-nav05">接管债务人</td>
+                    <td class="fd-menu-right-nav06">2016-3-8</td>
+                    <td class="fd-menu-right-nav07">李彤、李艾<br>（负责人）</td>
+                    <td class="fd-menu-right-nav08"><a href="#" class="js-fd-bianji">编辑</a><a href="#">详情</a><a href="#">分案</a></td>
+                </tr>
+                <tr class="fd-menu-right-nav1" >
+                    <td class="fd-menu-right-nav01">14</td>
+                    <td class="fd-menu-right-nav02"><span>3218183441</span>号</td>
+                    <td class="fd-menu-right-nav03">张天然</td>
+                    <td class="fd-menu-right-nav04">广东利海</td>
+                    <td class="fd-menu-right-nav05">接管债务人</td>
+                    <td class="fd-menu-right-nav06">2016-3-8</td>
+                    <td class="fd-menu-right-nav07">李彤、李艾<br>（负责人）</td>
+                    <td class="fd-menu-right-nav08"><a href="#" class="js-fd-bianji">编辑</a><a href="#">详情</a><a href="#">分案</a></td>
+                </tr>
+                <tr class="fd-menu-right-nav1" >
+                    <td class="fd-menu-right-nav01">15</td>
+                    <td class="fd-menu-right-nav02"><span>3218183441</span>号</td>
+                    <td class="fd-menu-right-nav03">张天然</td>
+                    <td class="fd-menu-right-nav04">深圳合正</td>
+                    <td class="fd-menu-right-nav05">接管债务人</td>
+                    <td class="fd-menu-right-nav06">2016-3-8</td>
+                    <td class="fd-menu-right-nav07">李彤、李艾<br>（负责人）</td>
+                    <td class="fd-menu-right-nav08"><a href="#" class="js-fd-bianji">编辑</a><a href="#">详情</a><a href="#">分案</a></td>
+                </tr>
+            </table>
+
+            <div class="fd-footer">
+                <button>首页</button>
+                <button>上一页</button>
+                <div class="fd-footer-img-left"></div>
+                <div class="fd-footer-text">
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                    </ul>
+                </div>
+                <div class="fd-footer-img-right"></div>
+                <button>下一页</button>
+                <button>末页</button>
+                <div class="fd-footer-tz">跳转</div>
+                <input type="text">
+                <button id="fd-footer-btn-go" >Go</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="js-fd-mask">
+     <div class="fd-tankuang">
+         <div class="fd-tk-title">
+             <div class="fd-tk-title-text">
+                 案件分配承办人
+             </div>
+             <button class="js-fd-tk-title-logo" >X</button>
+         </div>
+         <div class="fd-tk-middle">
+             <div class="fd-tk-middle-left">
+                 2016高民破字1002号
+             </div>
+             <!--<div class="fd-tk-middle-right"><a href="#">打印立案登记表</a></div>-->
+         </div>
+         <div class="js-fd-tk-box">
+             <div class="js-fd-tk-box1">案件分配承办人：</div>
+             <!--<input type="checkbox" name="check1">添加同级事务-->
+             <!--<input type="checkbox" name="check2">添加子事务-->
+         </div>
+         <div class="js-fd-tk-box2">合议庭对应审判组织成员名单：</div>
+         <div class="fd-tk-main-left">
+             <div class="fd-tk-main-name">接收庭室</div>
+             <div class="fd-tk-main-select">
+                 <div class="js-fd-select" style="color: #b9b8b8" >
+
+                 </div>
+                 <div class="js-fd-tk-img"></div>
+                 <div class="js-fd-option">
+                     <div class="js-fd-option1">民一庭</div>
+                     <div class="js-fd-option2">民二庭</div>
+                     <div class="js-fd-option3">民三庭</div>
+                 </div>
+             </div>
+             <div class="fd-tk-main-name1" >接收人</div>
+             <div class="fd-tk-main-select" >
+                 <div class="js-fd-select1" style="color: #b9b8b8">
+
+                 </div>
+                 <div class="js-fd-tk-img1"></div>
+                 <div class="js-fd-option01" >
+                     <div class="js-fd-option4" id="js-fd-option1">立案一庭</div>
+                     <div class="js-fd-option5" id="js-fd-option2">立案二庭</div>
+                     <div class="js-fd-option6" id="js-fd-option3">立案三庭</div>
+                 </div>
+             </div>
+             <div class="fd-tk-main-name2" >接收时间</div>
+             <div class="fd-tk-main-select" style="border-bottom:#e6e6e6 1px solid;height: 48px;">
+                 <div class="js-fd-select3" id="js-fd-time" style="color: #b9b8b8"></div>
+                 <div class="js-fd-tk-img2" id="js-fd-date"></div>
+
+             </div>
+             <script>
+                 layui.use('laydate', function(){
+                     var laydate = layui.laydate;
+                     laydate.render({
+                         elem: '#js-fd-time'
+                         ,type: 'datetime'
+                     });
+
+                 });
+             </script>
+
+         </div>
+         <div class="fd-tk-main-right">
+             <div class="fd-tk-right-text" style="height: 30px;background-color:#61a4ea;color: white;line-height: 30px">
+                 <div class="fd-tk-text-left" >
+                    角色
+                 </div>
+                 <div class="fd-tk-text-left" >
+                     成员
+                 </div>
+             </div>
+             <div class="fd-tk-right-text" style="background-color: #eeeeee;height: 39px;line-height: 40px;">
+                 <div class="fd-tk-text-left">
+                     审判长
+                 </div>
+                 <div class="fd-tk-text-left">
+                     周鑫
+                 </div>
+             </div>
+             <div class="fd-tk-right-text" style="background-color: #e5e5e5;height: 39px;line-height: 40px;">
+                 <div class="fd-tk-text-left">
+                     审判长
+                 </div>
+                 <div class="fd-tk-text-left">
+                     张海
+                 </div>
+             </div>
+             <div class="fd-tk-right-text" style="background-color:#eeeeee;height: 39px;line-height: 40px; ">
+                 <div class="fd-tk-text-left">
+                     审判长
+                 </div>
+                 <div class="fd-tk-text-left">
+                     周游
+                 </div>
+             </div>
+         </div>
+         <button class="fd-tk-fenan">分案</button>
+         <button class="js-fd-tk-quxiao">取消</button>
+     </div>
+</div>
+</body>
+</html>
